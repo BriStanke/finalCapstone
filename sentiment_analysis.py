@@ -68,7 +68,6 @@ def analyze_sentiment(review):
         # Error handling case where sentiment analysis couldn't be performed
         return 'neutral', 0.0
 
-
 # Test sentiment analysis function by taking random data with .iloc
 sample_review = reviews_data.sample(n=1).iloc[0]
 sentiment, polarity = analyze_sentiment(sample_review)
@@ -78,8 +77,6 @@ print(f"\nSample Review:", sample_review)
 print(f"Sentiment:", sentiment)
 # Output polarity score
 print(f"Polarity Score: {polarity:.2f}")
-
-
 
 # Choose two random product reviews
 random_reviews = reviews_data.sample(n=2, random_state=42)
