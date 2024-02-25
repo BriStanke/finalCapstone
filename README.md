@@ -22,8 +22,7 @@ sentiment, and zero representing neutral sentiment.
 - The similarity between pairs of reviews is computed using spaCy's similarity
 function, which compares the semantic similarity between the preprocessed
 documents.
-## 4. Insights into the model's strengths and
-limitations.
+## 4. Insights into the model's strengths and limitations.
 ### Strengths:
 - Utilizes the spaCyTextBlob extension, which combines the power of spaCy for
 natural language processing with TextBlob for sentiment analysis.
