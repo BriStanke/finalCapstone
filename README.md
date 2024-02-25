@@ -3,7 +3,7 @@
 ## 1. A description of the dataset used.
 I used an analysis dataset that contains product reviews from Amazon. This is a list
 of over 34,000 consumer reviews for Amazon products like the Kindle, Fire TV Stick,
-and more The dataset includes basic product information, rating, review text, and
+and more. The dataset includes basic product information, rating, review text, and
 more for each product.
 ## 2. Details of the preprocessing steps.
 - The text data in the 'reviews.text' column is converted to lowercase and
